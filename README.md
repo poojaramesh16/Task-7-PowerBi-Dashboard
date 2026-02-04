@@ -28,39 +28,50 @@ The dashboard analyzes sales and profit data to derive meaningful business insig
 ---
 
 ## 🔄 Workflow with Screenshots
+---
 
-### 1️⃣ Dataset Preview
-The dataset was reviewed to understand the structure, columns, and values before loading into Power BI.
+## 🔄 Data Loading & Preparation
+
+### Dataset Preview
+Initial preview of the dataset before loading into Power BI.
 
 ![Dataset Preview](screenshots/dataset_preview.png)
 
 ---
 
-### 2️⃣ Dataset Loaded into Power BI
-The CSV file was successfully imported into Power BI Desktop.
+### Dataset Loaded into Power BI
+Dataset successfully imported into Power BI Desktop.
 
 ![Dataset Loaded](screenshots/dataset_loaded.png)
 
 ---
 
-### 3️⃣ Power Query Editor
-Data types were verified and corrected using Power Query Editor.
+### Power Query Editor
+Data types verified and cleaned using Power Query Editor.
 
 ![Power Query Editor](screenshots/power_query_editor.png)
 
 ---
 
-### 4️⃣ Table Renamed
-The dataset table was renamed to **Superstore** for clarity and best practice.
+### Table Renamed
+The table was renamed to **Superstore** for clarity and best practice.
 
 ![Table Renamed](screenshots/table_renamed.png)
 
 ---
 
-### 5️⃣ Close and Apply
-All data transformations were applied to load the cleaned data into the report view.
+### Close and Apply
+All transformations were applied to the dataset.
 
 ![Close and Apply](screenshots/close_and_apply.png)
+
+---
+
+## 🧮 DAX Measures
+
+### Total Sales Measure
+```DAX
+Total Sales = SUM(Superstore[Sales])
 
 ---
 
