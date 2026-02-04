@@ -1,0 +1,5 @@
+1. Technology category generates the highest total sales compared to Furniture and Office Supplies.
+
+2. The Central and West regions contribute the most to overall sales, indicating strong market presence. 
+
+3. Profit shows an upward trend over time, suggesting improving business performance and growth.
