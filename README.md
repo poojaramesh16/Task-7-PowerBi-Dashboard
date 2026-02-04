@@ -1,24 +1,24 @@
-# 📊 Data Analyst Internship – Task 7
-## Power BI Mini Dashboard
+# 📊 DATA ANALYTICS INTERNSHIP – Task 7
+## POWER BI MINI DASHBOARD
 
 This project is part of my **Data Analyst Internship – Task 7**, where I created an interactive **Power BI dashboard** using the **Global Superstore dataset**.
 
 ---
 
-## 🛠 Tools Used
+## TOOLS USED
 - Power BI Desktop  
 - Microsoft Excel  
 - GitHub  
 
 ---
 
-## 📂 Dataset
+## DATA SET
 **Global Superstore Dataset**  
 Used for analyzing sales, profit, category, region, and segment performance.
 
 ---
 
-## 🔄 Data Preparation
+##  DATA PREPARATION
 
 ### Dataset Loaded
 ![Dataset Loaded](screenshots/dataset_loaded.png)
@@ -34,7 +34,7 @@ Used for analyzing sales, profit, category, region, and segment performance.
 
 ---
 
-## 🧮 DAX Measures
+## DAX MEASURES
 
 ### Total Sales
 ![Total Sales](screenshots/total_sales_measure.png)
@@ -47,7 +47,7 @@ Used for analyzing sales, profit, category, region, and segment performance.
 
 ---
 
-## 📌 KPI Cards
+## KPI CARDS
 
 ### Total Sales KPI
 ![Total Sales KPI](screenshots/kpi_total_sales.png)
@@ -60,7 +60,7 @@ Used for analyzing sales, profit, category, region, and segment performance.
 
 ---
 
-## 📊 Visualizations
+## VISUALIZATIONS
 
 ### Sales by Category
 ![Sales by Category](screenshots/sales_by_category.png)
@@ -73,25 +73,25 @@ Used for analyzing sales, profit, category, region, and segment performance.
 
 ---
 
-## 🎛 Interactive Slicers
+## 🎛 INTERACTIVE SLICERS
 
-### Region
+### REGION
 ![Region Slicer](screenshots/region_slicer.png)
 
-### Segment
+### SEGMENT
 ![Segment Slicer](screenshots/segment_slicer.png)
 
-### Year
+### YEAR
 ![Year Slicer](screenshots/year_slicer.png)
 
 ---
 
-## 🧩 Final Dashboard
+##  FINAL DASHBOARD
 ![Dashboard](screenshots/dashboard_layout.png)
 
 ---
 
-## 📄 Deliverables
+## DELIVERABLES
 - Dashboard.pbix  
 - Dashboard.pdf  
 - Screenshots  
@@ -99,7 +99,7 @@ Used for analyzing sales, profit, category, region, and segment performance.
 
 ---
 
-## ✅ Conclusion
+## CONCLUSION
 This project helped me gain hands-on experience with **Power BI**, **DAX measures**, **KPIs**, and **interactive dashboards**, which are essential for a **Data Analyst role**.
 
 
