@@ -2,119 +2,116 @@
 ## Power BI Mini Dashboard (Beginner)
 
 This repository contains my submission for **Task 7** of the Data Analyst Internship.  
-In this task, I created an **interactive Power BI dashboard** using the **Global Superstore dataset** to analyze sales and profit performance.
+In this task, I built an **interactive Power BI dashboard** using the **Global Superstore dataset** to analyze key business metrics.
 
 ---
 
 ## 🛠 Tools Used
 
 - Power BI Desktop  
-- Microsoft Excel (for initial data checking)  
-- GitHub (documentation & submission)
+- Microsoft Excel (for data checking)  
+- GitHub (documentation)
 
 ---
 
 ## 📂 Dataset
 
 - **Global Superstore Dataset**
-- Includes information on:
+- Includes:
   - Sales
   - Profit
-  - Category
-  - Region
-  - Segment
-  - Order Date
+  - Category, Region, Segment
+  - Order dates
 
-This dataset is widely used for practicing **business intelligence and data analytics**.
+This dataset is commonly used for BI and analytics practice.
 
 ---
 
-## 🎯 Dashboard Objectives
+## 🎯 Dashboard Objective
 
-- Calculate **Total Sales**, **Total Profit**, and **Profit Margin**
-- Analyze **Sales by Category**
-- Analyze **Sales by Region**
-- Track **Profit Trend Over Time**
-- Enable interactive filtering using slicers
+The dashboard includes:
+
+✔ Total Sales  
+✔ Total Profit  
+✔ Profit Margin  
+✔ Sales by Category  
+✔ Sales by Region  
+✔ Profit Trend Over Time  
+✔ Interactive Slicers
 
 ---
 
 ## 🔄 Data Preparation
 
 ### Dataset Loaded
-![Dataset Loaded](screenshots/dataset_loaded.png)
+![dataset_loaded](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/dataset_loaded.png)
 
 ### Dataset Preview
-![Dataset Preview](screenshots/dataset_preview.png)
+![dataset_preview](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/dataset_preview.png)
 
 ### Power Query Editor
-Used Power Query to check data types and clean columns.
-![Power Query Editor](screenshots/power_query_editor.png)
+![power_query_editor](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/power_query_editor.png)
 
 ### Table Renamed
-![Table Renamed](screenshots/table_renamed.png)
+![table_renamed](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/table_renamed.png)
 
 ---
 
 ## 🧮 DAX Measures Created
 
-- **Total Sales**
-- **Total Profit**
-- **Profit Margin**
+### Total Sales
+![total_sales_measure](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/total_sales_measure.png)
 
-### Total Sales Measure
-![Total Sales Measure](screenshots/total_sales_measure.png)
+### Total Profit
+![total_profit_measure](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/total_profit_measure.png)
 
-### Total Profit Measure
-![Total Profit Measure](screenshots/total_profit_measure.png)
-
-### Profit Margin Measure
-![Profit Margin Measure](screenshots/profit_margin_measure.png)
+### Profit Margin
+![profit_margin_measure](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/profit_margin_measure.png)
 
 ---
 
-## 📌 KPI Cards
+## 📌 KPIs
 
 ### Total Sales KPI
-![Total Sales KPI](screenshots/kpi_total_sales.png)
+![kpi_total_sales](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/kpi_total_sales.png)
 
 ### Total Profit KPI
-![Total Profit KPI](screenshots/kpi_total_profit.png)
+![kpi_total_profit](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/kpi_total_profit.png)
 
 ### Profit Margin KPI
-![Profit Margin KPI](screenshots/kpi_profit_margin.png)
+![kpi_profit_margin](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/kpi_profit_margin.png)
 
 ---
 
-## 📈 Visualizations
+## 📊 Visualizations
 
 ### Sales by Category
-![Sales by Category](screenshots/sales_by_category.png)
+![sales_by_category](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/sales_by_category.png)
 
 ### Sales by Region
-![Sales by Region](screenshots/sales_by_region.png)
+![sales_by_region](https://github.github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/sales_by_region.png)
 
 ### Profit Trend Over Time
-![Profit Trend Over Time](screenshots/profit_trend_over_time.png)
+![profit_trend_over_time](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/profit_trend_over_time.png)
 
 ---
 
 ## 🎛 Interactive Slicers
 
 ### Region Slicer
-![Region Slicer](screenshots/region_slicer.png)
+![region_slicer](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/region_slicer.png)
 
 ### Segment Slicer
-![Segment Slicer](screenshots/segment_slicer.png)
+![segment_slicer](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/segment_slicer.png)
 
 ### Year Slicer
-![Year Slicer](screenshots/year_slicer.png)
+![year_slicer](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/year_slicer.png)
 
 ---
 
 ## 🧩 Final Dashboard Layout
 
-![Dashboard Layout](screenshots/dashboard_layout.png)
+![dashboard_layout](https://github.com/poojaramesh16/Task-7-PowerBi-Dashboard/blob/main/screenshots/dashboard_layout.png)
 
 ---
 
@@ -122,23 +119,28 @@ Used Power Query to check data types and clean columns.
 
 - `Dashboard.pbix` – Power BI file  
 - `Dashboard.pdf` – Exported dashboard  
-- Screenshots of all steps  
-- `README.md` – Project documentation  
+- Screenshots – Workflow visualization  
+- `README.md` – Documentation  
 
 ---
 
-## 🔍 Key Learnings
+## 🔍 What I Learned
 
-- Understanding **KPIs** and their importance
-- Difference between **Measures and Calculated Columns**
-- Using **DAX** for business calculations
-- Designing **interactive dashboards** using slicers
-- Creating a **professional GitHub project** for data analytics work
+- Creating **KPIs** that matter in business reporting
+- Using **DAX** for calculation logic
+- Designing **interactive dashboards**
+- Applying **slicers** for user-driven insights
+- Structuring a repository professionally
 
 ---
 
 ## ✅ Conclusion
 
-This project helped me build a strong foundation in **Power BI dashboard creation**, **data analysis**, and **business reporting**, which are essential skills for a **Data Analyst role**.
+This dashboard gave me hands-on experience in **Power BI reporting** and **data visualization**, which are key skills for any **Data Analyst** role.
+
+---
+
+### ⭐ If you like this project, feel free to ⭐ star the repo!
+
 
 
