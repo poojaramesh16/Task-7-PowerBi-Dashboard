@@ -1,83 +1,144 @@
-# Task-7-PowerBi-Dashboard
+# 📊 Data Analyst Internship – Task 7  
+## Power BI Mini Dashboard (Beginner)
 
-
-## 📌 Objective
-The objective of this task is to create a beginner-level **interactive business dashboard** using **Power BI Desktop**.  
-The dashboard analyzes sales and profit data to derive meaningful business insights using visuals, KPIs, and slicers.
+This repository contains my submission for **Task 7** of the Data Analyst Internship.  
+In this task, I created an **interactive Power BI dashboard** using the **Global Superstore dataset** to analyze sales and profit performance.
 
 ---
 
 ## 🛠 Tools Used
-- **Power BI Desktop (Free)**
-- **Microsoft Excel 2018** (for initial dataset checking)
-- **GitHub** (for project submission)
+
+- Power BI Desktop  
+- Microsoft Excel (for initial data checking)  
+- GitHub (documentation & submission)
 
 ---
 
-## 📂 Dataset Information
-- **Dataset Name:** Global Superstore Dataset  
-- **File Format:** CSV  
-- **Source:** Public GitHub dataset  
-- **Description:** Contains order, sales, profit, category, region, and customer-related data.
+## 📂 Dataset
+
+- **Global Superstore Dataset**
+- Includes information on:
+  - Sales
+  - Profit
+  - Category
+  - Region
+  - Segment
+  - Order Date
+
+This dataset is widely used for practicing **business intelligence and data analytics**.
 
 ---
 
-## 📁 Project Structure
+## 🎯 Dashboard Objectives
 
-
----
-
-## 🔄 Workflow with Screenshots
----
-
-## 🔄 Data Loading & Preparation
-
-### Dataset Preview
-Initial preview of the dataset before loading into Power BI.
-
-![Dataset Preview](screenshots/dataset_preview.png)
+- Calculate **Total Sales**, **Total Profit**, and **Profit Margin**
+- Analyze **Sales by Category**
+- Analyze **Sales by Region**
+- Track **Profit Trend Over Time**
+- Enable interactive filtering using slicers
 
 ---
 
-### Dataset Loaded into Power BI
-Dataset successfully imported into Power BI Desktop.
+## 🔄 Data Preparation
 
+### Dataset Loaded
 ![Dataset Loaded](screenshots/dataset_loaded.png)
 
----
+### Dataset Preview
+![Dataset Preview](screenshots/dataset_preview.png)
 
 ### Power Query Editor
-Data types verified and cleaned using Power Query Editor.
-
+Used Power Query to check data types and clean columns.
 ![Power Query Editor](screenshots/power_query_editor.png)
 
----
-
 ### Table Renamed
-The table was renamed to **Superstore** for clarity and best practice.
-
 ![Table Renamed](screenshots/table_renamed.png)
-
----
-
-### Close and Apply
-All transformations were applied to the dataset.
-
-![Close and Apply](screenshots/close_and_apply.png)
-
----
-
-## 🧮 DAX Measures
-
-### Total Sales Measure
-```DAX
-Total Sales = SUM(Superstore[Sales])
 
 ---
 
 ## 🧮 DAX Measures Created
 
-### 🔹 Total Sales
-```DAX
-Total Sales = SUM(Superstore[Sales])
+- **Total Sales**
+- **Total Profit**
+- **Profit Margin**
+
+### Total Sales Measure
+![Total Sales Measure](screenshots/total_sales_measure.png)
+
+### Total Profit Measure
+![Total Profit Measure](screenshots/total_profit_measure.png)
+
+### Profit Margin Measure
+![Profit Margin Measure](screenshots/profit_margin_measure.png)
+
+---
+
+## 📌 KPI Cards
+
+### Total Sales KPI
+![Total Sales KPI](screenshots/kpi_total_sales.png)
+
+### Total Profit KPI
+![Total Profit KPI](screenshots/kpi_total_profit.png)
+
+### Profit Margin KPI
+![Profit Margin KPI](screenshots/kpi_profit_margin.png)
+
+---
+
+## 📈 Visualizations
+
+### Sales by Category
+![Sales by Category](screenshots/sales_by_category.png)
+
+### Sales by Region
+![Sales by Region](screenshots/sales_by_region.png)
+
+### Profit Trend Over Time
+![Profit Trend Over Time](screenshots/profit_trend_over_time.png)
+
+---
+
+## 🎛 Interactive Slicers
+
+### Region Slicer
+![Region Slicer](screenshots/region_slicer.png)
+
+### Segment Slicer
+![Segment Slicer](screenshots/segment_slicer.png)
+
+### Year Slicer
+![Year Slicer](screenshots/year_slicer.png)
+
+---
+
+## 🧩 Final Dashboard Layout
+
+![Dashboard Layout](screenshots/dashboard_layout.png)
+
+---
+
+## 📄 Deliverables
+
+- `Dashboard.pbix` – Power BI file  
+- `Dashboard.pdf` – Exported dashboard  
+- Screenshots of all steps  
+- `README.md` – Project documentation  
+
+---
+
+## 🔍 Key Learnings
+
+- Understanding **KPIs** and their importance
+- Difference between **Measures and Calculated Columns**
+- Using **DAX** for business calculations
+- Designing **interactive dashboards** using slicers
+- Creating a **professional GitHub project** for data analytics work
+
+---
+
+## ✅ Conclusion
+
+This project helped me build a strong foundation in **Power BI dashboard creation**, **data analysis**, and **business reporting**, which are essential skills for a **Data Analyst role**.
+
 
